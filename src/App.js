@@ -9,6 +9,7 @@ import { AuthProvider } from "./contexts/authContext";
 import { useRoutes } from "react-router-dom";
 import Internship from "./components/home/utilities/internships";
 import List from "./components/home/utilities/internships/list";
+import Specific from "./components/home/utilities/internships/specific";
 
 function App() {
   const routesArray = [
@@ -39,6 +40,10 @@ function App() {
     {
       path:"/List",
       element:<List/>
+    },
+    {
+      path:"/Specific",
+      element:<Specific/>
     }
   ];
   let routesElement = useRoutes(routesArray);

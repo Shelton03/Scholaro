@@ -27,7 +27,7 @@ const Internship = () => {
                 navigate("/List?name=industrialAttachment")}}    
             
                            >
-                    <b>Industrial Attachment</b>
+                    <b>Industrial Attachments</b>
             </button>
 
             <br/>
@@ -45,7 +45,7 @@ const Internship = () => {
                            }}
             onClick={(event) => 
                         {
-                            navigate("/List?name=apprenticeships")}}
+                            navigate("/List?name=apprenticeship")}}
 
                            >
                     <b>Apprenticeships</b>
