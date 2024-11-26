@@ -8,7 +8,7 @@ const Specific = () =>{
     const name = Number(searchParams.get('name'))
     const specific_data = relevant_data[name - 1]
 
-    const object_list = <p>{specific_data.name}</p>
+    const object_list = <p>{specific_data.name}</p> 
     
 
     
