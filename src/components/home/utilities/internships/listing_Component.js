@@ -9,19 +9,22 @@ const ListComponent = (props) =>{
 
      
     return(
-        <div style={{backgroundColor:'rgb(26,26,49)'}}>
+        <div style={{backgroundColor:'azure'}}>
                       
             <button
         
                              style={{
-                                backgroundColor:'rgb(79,70,229)',
-                                       height:'200px',
+                                backgroundColor: "azure",
+                                       height:'400px',
                                        width:'200px',
-                                       borderRadius:'100%',
-                                       border:'1px solid #000',
+                                    marginTop: "20px",
+                                       border:'2px solid yellow',
                                        color:'black',
                                        display:'block',
-                                       margin:'auto',
+                                       marginRight: "20px",
+                                       borderRadius: "20px",
+                                       alignItems: "center",
+                                       
                                     }}
 
                         onClick={() => {navigate("/Specific?name=" + props.id)}}

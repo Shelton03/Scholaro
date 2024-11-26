@@ -23,7 +23,7 @@ const List = () => {
 
 
     return (
-        <div className='text-2xl font-bold pt-14'>
+        <div className='listing-div'>
            {list}
         </div>
     )

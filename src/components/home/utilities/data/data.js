@@ -11,9 +11,10 @@ export const api_simulation_data = {
              merit:"Yes",
              need:"No",
              essay:"Yes",
-             about:("Higher Life Foundation provides financial assistance to  fifty top performing high school graduates"),
-             requirements:[""],
-             benefits:[]
+             about:("Higher Life Foundation provides financial assistance to  fifty top performing high school graduates. 70% of the scholarships are allocated for Science, Technology, Engineering & Mathematics (STEM) studies, whilst 30% is reserved for other disciplines."),
+             eligibility:["A minimum of 15 and 12 points at A level for boys and girls respectively","Under 21 years of age"],
+             requirements:["Copies of examination results","Birth Certificate","National ID", "Character reference form"],
+             benefits:["1","2","3"]
             },
             {
                 id:"2",
@@ -25,8 +26,8 @@ export const api_simulation_data = {
                 need:"No",
                 essay:"Yes",
                 about:("Old Mutual provides financial assistance to  fifty top performing high school graduates"),
-                requirements:[],
-                benefits:[]
+                requirements:["1","2","3"],
+                benefits:["1","2","3"]
    
                 
             },
@@ -40,8 +41,8 @@ export const api_simulation_data = {
                 need:"No",
                 essay:"Yes",
                 about:("Nedbank provides financial assistance to  fifty top performing high school graduates"),
-                requirements:[],
-                benefits:[]
+                requirements:["1","2","3"],
+                benefits:["1","2","3"]
    
                 
             },
@@ -71,8 +72,8 @@ export const api_simulation_data = {
             need:"No",
             essay:"Yes",
             about:("Mastercard Foundation provides financial assistance to  fifty top performing high school graduates"),
-            requirements:[],
-            benefits:[]
+            requirements:["1","2","3"],
+            benefits:["1","2","3"]
 
             },
             {
@@ -85,8 +86,8 @@ export const api_simulation_data = {
             need:"No",
             essay:"Yes",
             about:("Chevening provides financial assistance to  fifty top performing high school graduates"),
-            requirements:[],
-            benefits:[]
+            requirements:["1","2","3"],
+            benefits:["1","2","3"]
 
             },
         ],
@@ -98,7 +99,7 @@ export const api_simulation_data = {
         open:"",
         close:"",
         duration:"",
-        requirements:[]
+        requirements:["1","2","3"]
         },
         {
         id:"2",
@@ -106,7 +107,7 @@ export const api_simulation_data = {
         open:"",
         close:"",
         duration:"",
-        requirements:[]
+        requirements:["1","2","3"]
         },
         {
         id:"3",
@@ -114,7 +115,7 @@ export const api_simulation_data = {
         open:"",
         close:"",
         duration:"",
-        requirements:[]
+        requirements:["1","2","3"]
         },
     ],
     "apprenticeship":[
@@ -122,23 +123,23 @@ export const api_simulation_data = {
          id:"1",
          name:"Dendairy",
          duration:"",
-         requirements:[],
-         benefits:[]
+         requirements:["1","2","3"],
+         benefits:["1","2","3"]
         },
         {
         id:"2",
         name:"Delta",
         duration:"",
-        requirements:[],
-        benefits:[]
+        requirements:["1","2","3"],
+        benefits:["1","2","3"]
 
         },
         {
         id:"3",
         name:"Dairyboard",
         duration:"",
-        requirements:[],
-        benefits:[]
+        requirements:["1","2","3"],
+        benefits:["1","2","3"]
         },
     ]
     }
