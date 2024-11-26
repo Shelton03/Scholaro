@@ -23,9 +23,14 @@ const List = () => {
 
 
     return (
-        <div className='listing-div'>
+        <>
+            <div className='listing-div'>
            {list}
         </div>
+        <footer className="footer">
+            lollipop or something like that just seeing how thing goes ohh ohhh ohhh ohhh how arte you good people this is a footer by the way so foot the things alright
+        </footer>
+        </>
     )
 
 

@@ -10,7 +10,7 @@ const Specific = () =>{
     const name = Number(searchParams.get('name'))
     specific_data = relevant_data[name]
 
-    const object_list = <p>{specific_data.name}</p>
+    const object_list = <p>{specific_data.name}</p> 
     
 
     

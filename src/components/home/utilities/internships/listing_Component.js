@@ -9,27 +9,14 @@ const ListComponent = (props) =>{
 
      
     return(
-        <div style={{backgroundColor:'azure'}}>
+        <div >
                       
-            <button
-        
-                             style={{
-                                backgroundColor: "azure",
-                                       height:'400px',
-                                       width:'200px',
-                                    marginTop: "20px",
-                                       border:'2px solid yellow',
-                                       color:'black',
-                                       display:'block',
-                                       marginRight: "20px",
-                                       borderRadius: "20px",
-                                       alignItems: "center",
-                                       
-                                    }}
-
+            <button className="populating-button"
                         onClick={() => {navigate("/Specific?name=" + props.id)}}
                                        >
                                 <b>{props.name}</b>
+                               
+                                
                                 
                         </button>
             
