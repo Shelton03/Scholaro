@@ -30,6 +30,7 @@ const ListComponent = (props) =>{
                         onClick={() => {navigate("/Specific?name=" + props.id)}}
                                        >
                                 <b>{props.name}</b>
+                                
                         </button>
             
         </div>

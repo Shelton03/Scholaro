@@ -13,9 +13,9 @@ const List = () => {
     relevant_data = api_simulation_data[name]
 
 
-    //the props are either not getting passed properly or something's wrong with the data
+    
     const list = relevant_data.map(result => {return (
-        <ListComponent name={result.name} id={result.id} key={result.id}/>
+        <ListComponent name={result.name} essay={result.essay} id={result.id} key={result.id}/>
     )})
    
     

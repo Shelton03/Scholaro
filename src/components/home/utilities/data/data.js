@@ -90,8 +90,7 @@ export const api_simulation_data = {
                 merit:"Yes",
                 need:"Yes",
                 essay:"Yes",
-                eligibility:["Under 29 years of age","Demonstrate academic talent, leadership potential and commitment to giving back",
-                    ""],
+                eligibility:["Under 29 years of age","Demonstrate academic talent, leadership potential and commitment to giving back"],
                 about:("Mastercard provides full financial support to under pivildged high achieving Advanced Level graduates to pursue their first undergraduate studies at USIU in Nairobi,Kenya"),
                 requirements:["Fill Application Form","Submit one page application letter","Submit Headmaster's Motivational Letter",
                     "Submit a recent passport photo","Submit Certified Copies of Birth Certificate and National ID","Submit Exam Certificates"],
@@ -102,46 +101,95 @@ export const api_simulation_data = {
          "postgraduate":[
             {
             id:"0",
-            amount:"Full Tuition",
+            amount:"All Expenses Covered",
             name:"Beit Trust",
-            opens:"09/23/24",
-            closes:"11/11/03",
+            opens:"09/11/25",
+            closes:"01/05/26",
             merit:"Yes",
-            need:"No",
+            need:"Yes",
+            eligibility:["First Class or Upper Merit Degree","Willing to return to country of origin after study","Three years work experience in field of study","Pursue your degree in partner universities only"],
             essay:"Yes",
-            about:("Beit Trust provides financial assistance to  fifty top performing high school graduates"),
-            requirements:[],
-            benefits:[]
+            about:("Beit Trust provides financial assistance to high achieving graduates from Zimbabwe, Zambia and Malawi"),
+            requirements:["Submit transcripts","Submit an admission offer from a partner unisversity","Submit Application Form","Submit the academic,character, and employee references"],
+            benefits:["Laptop","Monthly allowance","All academic costs"]
 
             },
             {
             id:"1",
-            amount:"Full Tuition",
+            amount:"All Expenses Covered",
             name:"Mastercard Foundation",
             opens:"09/23/24",
             closes:"11/11/03",
             merit:"Yes",
-            need:"No",
+            need:"Yes",
             essay:"Yes",
-            about:("Mastercard Foundation provides financial assistance to  fifty top performing high school graduates"),
+            eligibility:["Hold an offer letter from apartner university","Leadership experience","Academic merit"],
+            about:("The Mastercard Foundation Scholars Program is a global initiative designed to develop the next generation of transformative leaders by enabling highly talented, service-oriented young people, primarily young Africans, to pursue higher education and cultivate their leadership potential."),
             requirements:["1","2","3"],
             benefits:["1","2","3"]
 
             },
             {
             id:"2",
-            amount:"Full Tuition",
+            amount:"All Expenses Covered",
             name:"Chevening",
-            opens:"09/23/24",
+            opens:"06/08/25",
             closes:"11/11/03",
             merit:"Yes",
-            need:"No",
+            need:"Yes",
             essay:"Yes",
-            about:("Chevening provides financial assistance to  fifty top performing high school graduates"),
-            requirements:["1","2","3"],
-            benefits:["1","2","3"]
+            eligibility:["Be in a Chevening Eligible country(Zimbabwe is eligble)","Two years of work experience","Hold a first class or upper merit undergraduate degree","Receive an unconditional offer for an eligible course from a UK university"],
+            about:("Chevening offers fully funded scholarships and fellowships to individuals with ideas to create positive change."),
+            requirements:["Submit transcripts","Submit application form","Submit two reference forms"],
+            benefits:["Accomodation","Tuition","Allowance","Rsearch Assistance"]
 
             },
+            {
+                id:"3",
+                amount:"All Expenses Covered",
+                name:"Rhodes Scholarship",
+                opens:"09/23/24",
+                closes:"11/11/03",
+                merit:"Yes",
+                need:"Yes",
+                essay:"Yes",
+                eligibility:["Hold a first class or upeer merit degree","Be under the age of 27","Be a resident of your home country"],
+                about:("The Rhodes Scholarship is a life-changing opportunity to join outstanding young people from around the world to study at the University of Oxford"),
+                requirements:["Submit a personal statement","Submit an academic statement","Submit reference letters","Participate in the social engagement event","Do the final interview"],
+                benefits:["Annual Stipend","Accomoodation","Tuition","Leadership Training"]
+    
+                },
+                {
+                    id:"4",
+                    amount:"All Expenses Covered",
+                    name:"Fullbright",
+                    opens:"10/01/25",
+                    closes:"15/04/25",
+                    merit:"Yes",
+                    need:"Yes",
+                    essay:"Yes",
+                    eligibility:["Reside in country of nomination","First class or upeer merit undergraduate degree","Be fluent in English","Employment at tertiary or research institution"],
+                    about:("The Fulbright Foreign Student Program awards approximately 4,000 grants annually to foreign students to study for a Master’s or Doctorate degree and conduct research on campuses across the United States. "),
+                    requirements:["Submit GRE scores","Submit transcript","Submit Reference letters","Submit Resume","Submit study plan","Submit application form"],
+                    benefits:["Health Benefits","j1 Visa support","Tuition","Accomodation","Research Funding Assistance",""]
+        
+                    },
+                    {
+                        id:"5",
+                        amount:"Varies",
+                        name:"Erasmus Mundus",
+                        opens:"09/23/24",
+                        closes:"11/11/03",
+                        merit:"Yes",
+                        need:"Yes",
+                        essay:"Yes",
+                        eligibility:["Hold a first class or upper merit undergraduate degree","A minimum English language qualification of English B/English 6 at upper secondary level or the equivalent level of an internationally recognized test","A minimum of two year’s practitioner experience in the field of human rights"],
+                        about:("Erasmus Mundus Joint Masters are prestigious international masters, jointly designed and delivered by a group of higher education institutions.They involve at least 3 institutions from at least 3 different countries, and multiple associated partners from the academic and non-academic world.Typically, they include periods of study, research, traineeship, thesis preparation and defence."),
+                        requirements:["Submit Official Transcripts","Submit resume",
+                            "Submit motivational letter","Submit two letters of recommendation","Fill application form","Submit proof of residence","Submit passport scan"],
+                        benefits:["Travel Costs","Visa","Living allowance"]
+            
+                        },
         ],
 
     "industrialAttachment":[
