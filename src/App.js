@@ -10,6 +10,7 @@ import { useRoutes } from "react-router-dom";
 
 import List from "./components/home/utilities/internships/list";
 import Specific from "./components/home/utilities/internships/specific";
+import Checklist from "./components/home/utilities/data/checking/checklist";
 
 function App() {
   const routesArray = [
@@ -37,6 +38,10 @@ function App() {
     {
       path:"/Specific",
       element:<Specific/>
+    },
+    {
+      path:"/Checklist",
+      element:<Checklist/>
     }
   ];
   let routesElement = useRoutes(routesArray);

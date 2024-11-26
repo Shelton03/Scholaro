@@ -44,7 +44,7 @@ const Home = () => {
                                                
                                         onClick={(event) => {
                                         navigate("/List?name=undergraduate")}}>
-                                        <b>Undergraduate</b>
+                                        <b>Undergraduate Scholarships</b>
                                         </button><br/>
         
                                         <button className='postgraduate-button'
@@ -52,7 +52,7 @@ const Home = () => {
                                                 
                                         onClick={(event) => {
                                         navigate("/List?name=postgraduate")}}>
-                                        <b>Post Graduate</b>
+                                        <b>Post Graduate Scholarships</b>
                                         </button>
                     
                                 </div>

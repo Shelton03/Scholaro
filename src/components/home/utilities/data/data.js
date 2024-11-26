@@ -3,7 +3,7 @@
 export const api_simulation_data = {
         "undergraduate":[
             {
-             id:"1",
+             id:"0",
              amount:"Full Tuition",
              name:"Joshua Mqabuko Nkomo",
              opens:"09/23/24",
@@ -17,7 +17,7 @@ export const api_simulation_data = {
              benefits:["1","2","3"]
             },
             {
-                id:"2",
+                id:"1",
                 amount:"All Expenses Covered",
                 name:"Old Mutual",
                 opens:"09/23/24",
@@ -32,7 +32,7 @@ export const api_simulation_data = {
                 
             },
             {
-                id:"3",
+                id:"2",
                 amount:"All Expenses Covered",
                 name:"Nedbank",
                 opens:"09/23/24",
@@ -49,7 +49,7 @@ export const api_simulation_data = {
         ],
          "postgraduate":[
             {
-            id:"1",
+            id:"0",
             amount:"Full Tuition",
             name:"Beit Trust",
             opens:"09/23/24",
@@ -63,7 +63,7 @@ export const api_simulation_data = {
 
             },
             {
-            id:"2",
+            id:"1",
             amount:"Full Tuition",
             name:"Mastercard Foundation",
             opens:"09/23/24",
@@ -77,7 +77,7 @@ export const api_simulation_data = {
 
             },
             {
-            id:"3",
+            id:"2",
             amount:"Full Tuition",
             name:"Chevening",
             opens:"09/23/24",
@@ -94,7 +94,7 @@ export const api_simulation_data = {
 
     "industrialAttachment":[
         {
-        id:"1",
+        id:"0",
         name:"CBZ",
         open:"",
         close:"",
@@ -102,7 +102,7 @@ export const api_simulation_data = {
         requirements:["1","2","3"]
         },
         {
-        id:"2",
+        id:"1",
         name:"Nedbank",
         open:"",
         close:"",
@@ -110,7 +110,7 @@ export const api_simulation_data = {
         requirements:["1","2","3"]
         },
         {
-        id:"3",
+        id:"2",
         name:"CABS",
         open:"",
         close:"",
@@ -120,14 +120,14 @@ export const api_simulation_data = {
     ],
     "apprenticeship":[
         {
-         id:"1",
+         id:"0",
          name:"Dendairy",
          duration:"",
          requirements:["1","2","3"],
          benefits:["1","2","3"]
         },
         {
-        id:"2",
+        id:"1",
         name:"Delta",
         duration:"",
         requirements:["1","2","3"],
@@ -135,7 +135,7 @@ export const api_simulation_data = {
 
         },
         {
-        id:"3",
+        id:"2",
         name:"Dairyboard",
         duration:"",
         requirements:["1","2","3"],
