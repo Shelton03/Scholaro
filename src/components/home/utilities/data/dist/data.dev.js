@@ -16,10 +16,11 @@ var api_simulation_data = {
     need: "No",
     essay: "Yes",
     about: "Higher Life Foundation provides financial assistance to  fifty top performing high school graduates",
-    requirements: [],
+    requirements: [""],
     benefits: []
   }, {
     id: "2",
+    amount: "All Expenses Covered",
     name: "Old Mutual",
     opens: "09/23/24",
     closes: "11/11/03",
@@ -31,47 +32,51 @@ var api_simulation_data = {
     benefits: []
   }, {
     id: "3",
+    amount: "All Expenses Covered",
     name: "Nedbank",
     opens: "09/23/24",
     closes: "11/11/03",
     merit: "Yes",
     need: "No",
     essay: "Yes",
-    about: "Higher Life Foundation provides financial assistance to  fifty top performing high school graduates",
+    about: "Nedbank provides financial assistance to  fifty top performing high school graduates",
     requirements: [],
     benefits: []
   }],
   "postgraduate": [{
     id: "1",
-    name: "Partial One",
+    amount: "Full Tuition",
+    name: "Beit Trust",
     opens: "09/23/24",
     closes: "11/11/03",
     merit: "Yes",
     need: "No",
     essay: "Yes",
-    about: "Higher Life Foundation provides financial assistance to  fifty top performing high school graduates",
+    about: "Beit Trust provides financial assistance to  fifty top performing high school graduates",
     requirements: [],
     benefits: []
   }, {
     id: "2",
-    name: "Partial Two",
+    amount: "Full Tuition",
+    name: "Mastercard Foundation",
     opens: "09/23/24",
     closes: "11/11/03",
     merit: "Yes",
     need: "No",
     essay: "Yes",
-    about: "Higher Life Foundation provides financial assistance to  fifty top performing high school graduates",
+    about: "Mastercard Foundation provides financial assistance to  fifty top performing high school graduates",
     requirements: [],
     benefits: []
   }, {
     id: "3",
-    name: "Partial Three",
+    amount: "Full Tuition",
+    name: "Chevening",
     opens: "09/23/24",
     closes: "11/11/03",
     merit: "Yes",
     need: "No",
     essay: "Yes",
-    about: "Higher Life Foundation provides financial assistance to  fifty top performing high school graduates",
+    about: "Chevening provides financial assistance to  fifty top performing high school graduates",
     requirements: [],
     benefits: []
   }],
@@ -81,21 +86,21 @@ var api_simulation_data = {
     open: "",
     close: "",
     duration: "",
-    requirements: ""
+    requirements: []
   }, {
     id: "2",
     name: "Nedbank",
     open: "",
     close: "",
     duration: "",
-    requirements: ""
+    requirements: []
   }, {
     id: "3",
     name: "CABS",
     open: "",
     close: "",
     duration: "",
-    requirements: ""
+    requirements: []
   }],
   "apprenticeship": [{
     id: "1",
@@ -105,13 +110,13 @@ var api_simulation_data = {
     benefits: []
   }, {
     id: "2",
-    name: "",
+    name: "Delta",
     duration: "",
     requirements: [],
     benefits: []
   }, {
     id: "3",
-    name: "",
+    name: "Dairyboard",
     duration: "",
     requirements: [],
     benefits: []
