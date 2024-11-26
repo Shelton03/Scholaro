@@ -15,7 +15,8 @@ const List = () => {
 
     //the props are either not getting passed properly or something's wrong with the data
     const list = relevant_data.map(result => {return (
-        <ListComponent name={result.name} id={result.id} key={result.id}/>
+        <ListComponent name={result.name} id={result.id} essay={result.essay} key={result.id} amount={result.amount}
+        merit={result.merit} opens={result.opens} closes={result.closes} need={result.need} /> 
     )})
    
     
@@ -24,7 +25,7 @@ const List = () => {
 
     return (
         <>
-            <div className='listing-div'>
+        <div className='listing-div'>
            {list}
         </div>
         <footer className="footer">
