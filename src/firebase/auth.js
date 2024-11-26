@@ -9,7 +9,11 @@ import {
   GoogleAuthProvider,
 } from "firebase/auth";
 
+
+
+
 export const doCreateUserWithEmailAndPassword = async (email, password) => {
+  const user = {"email":email, 'password': password}
   return createUserWithEmailAndPassword(auth, email, password);
 };
 

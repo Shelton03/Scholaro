@@ -1,8 +1,12 @@
 import React from 'react'
-import { Navigate, Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
+
+
 
 const Home = () => {
             const navigate = useNavigate()
+            
+            
             return (
                 <>
                     <div style={{backgroundColor:"rgb(26,26,49)",
