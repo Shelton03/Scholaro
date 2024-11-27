@@ -107,10 +107,10 @@ var api_simulation_data = {
     merit: "Yes",
     need: "Yes",
     essay: "Yes",
-    eligibility: ["Hold an offer letter from apartner university", "Leadership experience", "Academic merit"],
+    eligibility: ["Hold an offer letter from a partner university", "Leadership experience", "Academic Merit", "High level english proficiency"],
     about: "The Mastercard Foundation Scholars Program is a global initiative designed to develop the next generation of transformative leaders by enabling highly talented, service-oriented young people, primarily young Africans, to pursue higher education and cultivate their leadership potential.",
-    requirements: ["1", "2", "3"],
-    benefits: ["1", "2", "3"]
+    requirements: ["Submit application to partner university directly", "Submit Official Transcripts", "Submit statement of purpose and a research proposal", "Submit references", "Submit certifications and award details"],
+    benefits: ["Laptop", "Airfare Ticket", "Research Funding", "Accomodation", "Tuition", ""]
   }, {
     id: "2",
     amount: "All Expenses Covered",

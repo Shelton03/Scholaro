@@ -17,7 +17,7 @@ const Specific = () =>{
     return (
         <div className='text-2xl font-bold pt-14'>
            {object_list}
-           <button onClick={()=> navigate("/Checklist")}>Apply</button>
+           <button onClick={()=> navigate("/Checklist")}>Application Checklist</button>
         </div>)
 
 }

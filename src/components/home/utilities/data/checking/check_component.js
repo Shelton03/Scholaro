@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 
 const CheckItem = (props) => {
+
+
     return (
     <div className="Todo-item">
 
-            <input type="checkbox"/>  
+            <input checked={props.check} onChange={()=>props.handlechange(props.id)} type="checkbox"/>  
             <span>{props.text}</span>
 
         </div>)
