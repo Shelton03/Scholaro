@@ -1,12 +1,14 @@
 import React from "react";
 import { useSearchParams,useNavigate } from "react-router-dom";
-import { relevant_data } from "./list";
+import { api_simulation_data } from "../data/data";
 
 export let specific_data
 const Specific = () =>{
 
     const navigate = useNavigate()
     const [searchParams] = useSearchParams()
+    const listName = searchParams.get('listName')
+    const relevant_data = api_simulation_data[listName]
     const name = Number(searchParams.get('name'))
     specific_data = relevant_data[name]
 
@@ -32,7 +34,7 @@ const Specific = () =>{
             <hr/>
             <ol>{specific_data.requirements.map(item => (<li>{item}</li>))}</ol>
             <br></br>
-            <button onClick={()=> navigate("/Checklist")}>Application Checklist</button>
+            <button onClick={()=> navigate("/Checklist?name=" + name + "&listName=" + listName)}>Application Checklist</button>
         </div>
    
 </div>

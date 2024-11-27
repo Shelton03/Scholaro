@@ -5,12 +5,11 @@ import { doCreateUserWithEmailAndPassword } from '../../../firebase/auth'
 import scholaro from "../Scholaro.png";
 import { db } from '../../../firebase/firebase';
 
-export let email,setEmail
 const Register = () => {
 
     const navigate = useNavigate()
 
-          [email, setEmail] = useState('')
+    const  [email, setEmail] = useState('')
     const [name, setName] = useState('')
     const [password, setPassword] = useState('')
     const [confirmPassword, setconfirmPassword] = useState('')

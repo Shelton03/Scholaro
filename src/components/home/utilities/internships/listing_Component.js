@@ -12,7 +12,7 @@ const ListComponent = (props) =>{
         <div >
                       
             <div className="populating-button"
-                        onClick={() => {navigate("/Specific?name=" + props.id)}}>
+                        onClick={() => {navigate("/Specific?name=" + props.id +"&listName=" + props.listName)}}>
 
                        
                         <h2 style={{fontSize:"2em"}}>{props.amount}</h2>

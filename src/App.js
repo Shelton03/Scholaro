@@ -10,14 +10,8 @@ import Checklist from "./components/home/utilities/data/checking/checklist";
 import { db } from "./firebase/firebase";
 import { collection, getDocs } from "firebase/firestore";
 
-export let data = []
-export const getData = async () => {
-  const docs = await getDocs(collection(db,"users"));
-  docs.forEach((doc) => {
-    data.push(doc.data())
-    console.log(data);
-  });
-};
+
+
 
 function App() {
   const routesArray = [
