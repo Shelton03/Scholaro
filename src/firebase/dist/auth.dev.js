@@ -9,6 +9,8 @@ var _firebase = require("./firebase");
 
 var _auth = require("firebase/auth");
 
+var _firestore = require("firebase/firestore");
+
 var doCreateUserWithEmailAndPassword = function doCreateUserWithEmailAndPassword(email, password) {
   var user;
   return regeneratorRuntime.async(function doCreateUserWithEmailAndPassword$(_context) {
@@ -17,11 +19,13 @@ var doCreateUserWithEmailAndPassword = function doCreateUserWithEmailAndPassword
         case 0:
           user = {
             "email": email,
-            'password': password
+            'password': password,
+            'list_of_applied': []
           };
+          (0, _firestore.addDoc)((0, _firestore.collection)(_firebase.db, "users"), user);
           return _context.abrupt("return", (0, _auth.createUserWithEmailAndPassword)(_firebase.auth, email, password));
 
-        case 2:
+        case 3:
         case "end":
           return _context.stop();
       }
@@ -49,9 +53,10 @@ var doSignInWithGoogle = function doSignInWithGoogle() {
 
         case 3:
           result = _context2.sent;
-          user = result.user; // add user to firestore
+          user = result.user;
+          (0, _firestore.addDoc)((0, _firestore.collection)(_firebase.db, "users"), user);
 
-        case 5:
+        case 6:
         case "end":
           return _context2.stop();
       }

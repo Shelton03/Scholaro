@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { specific_data } from "../../internships/specific";
 import CheckItem from "./check_component";
+import { getData } from "../../../../../App";
 
 
 const Checklist = () => {
@@ -13,6 +14,8 @@ const Checklist = () => {
         {requirement:requirement,reqstate:false}
     )})
 
+
+    
    function handleChange(id){
        const updated = states.map(state =>{
         if (state.requirement === id){
@@ -42,7 +45,7 @@ const Checklist = () => {
 
     return (
         <div className='text-2xl font-bold pt-14'>
-        {reqCheclist} {console.log(states)}
+        {reqCheclist} {console.log(getData())}
         <button>
             Add to list of applied
         </button>

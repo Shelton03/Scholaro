@@ -2,13 +2,15 @@ import React, { useState } from 'react'
 import { Navigate, Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../../../contexts/authContext'
 import { doCreateUserWithEmailAndPassword } from '../../../firebase/auth'
-import scholaro from "../Scholaro.png"
+import scholaro from "../Scholaro.png";
+import { db } from '../../../firebase/firebase';
 
+export let email,setEmail
 const Register = () => {
 
     const navigate = useNavigate()
 
-    const [email, setEmail] = useState('')
+          [email, setEmail] = useState('')
     const [name, setName] = useState('')
     const [password, setPassword] = useState('')
     const [confirmPassword, setconfirmPassword] = useState('')
