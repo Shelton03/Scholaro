@@ -9,6 +9,7 @@ import Specific from "./components/home/utilities/internships/specific";
 import Checklist from "./components/home/utilities/data/checking/checklist";
 import { db } from "./firebase/firebase";
 import { collection, getDocs } from "firebase/firestore";
+import Applied from "./components/header/applied";
 
 
 
@@ -43,8 +44,13 @@ function App() {
     {
       path:"/Checklist",
       element:<Checklist/>
+    },
+    {
+      path:"/Applied",
+      element:<Applied/>
     }
-  ];
+  ]
+
   let routesElement = useRoutes(routesArray);
   return ( 
     <AuthProvider>

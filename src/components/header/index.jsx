@@ -15,7 +15,7 @@ const Header = () => {
                         <button onClick={() => { doSignOut().then(() => { navigate('/login') }) }} 
                         className='text-sm text-blue-600 underline' style={{color:'rgb(79,70,229)'}}>Logout</button>
                          <br/>
-                        <button onClick={() => { navigate('/login') } } 
+                        <button onClick={() => { navigate('/Applied') } } 
                         className='text-sm text-blue-600 underline' style={{color:'rgb(79,70,229)'}}>Applications</button>
                         
                     </>
