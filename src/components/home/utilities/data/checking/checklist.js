@@ -23,7 +23,7 @@ const Checklist = () => {
 
        
        function findState(requirement){
-        states.array.forEach(state => {
+        states.forEach(state => {
             if (state.requirement === requirement.text){
                 return state.reqstate}
         });

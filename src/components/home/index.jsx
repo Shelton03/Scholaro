@@ -6,22 +6,24 @@ import { useNavigate } from 'react-router-dom'
 const Home = () => {
             const navigate = useNavigate()
             
-            
+        
             return(
                         <div className='home-div'
                                 style={{
                                 display: 'grid',
                                 gridTemplateColumns: '1fr 1fr', // Two equal columns
-                                height: '100vh',}}>
+                                height: '100vh',
+                                backgroundImage: 'url("/public/background.jpg")'}}>
 
                         {/* Left Side */}
-                        <div className = 'left-side-div' style={{ backgroundColor: '#ffe4c4', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                <h1 style={{ fontSize: '3rem', color: '#5a4b41' }}>Welcome</h1>
+                        <div className = 'left-side-div' >
+                                <p style= {{marginTop:"400px", marginLeft:"70px", fontSize:"20px"}}>WELCOME TO SCHOLARO, YES WE ARE NICE LIKE THAT</p>
+                                
                         </div>
                         
                         {/* Right Side */}
-                        <div style={{ backgroundColor: "azure", display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                <div className='left-side-div'>
+                        <div style={{ backgroundColor: "white", display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <div className='right-side-div'>
 
                                         <button className='industrial-attachment-button'
                                         name="IndustrialAttachment"

@@ -2,19 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.left-side-div button{
-        background-color: azure;
+.right-side-div button{
+        background-color: whitesmoke;
         height: 60px;
         width: 600px;
-        border:2px solid rgb(234, 234, 11);
+        border:2px solid black;
         color:black;
         display:block;
-        
         border-radius: 20px;
     }
 
-.left-side-div button:hover{
+.right-side-div button:hover{
     border: 2px solid black;
+}
+
+.left-side-div{
+    background-image: url("/public/whitebackground.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
 }
 
 .undergraduate-button{
@@ -27,6 +32,7 @@
         justify-content: center;
         margin-top: 50px;      
 }
+
 
 .populating-button{
     
