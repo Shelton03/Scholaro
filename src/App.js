@@ -1,16 +1,23 @@
 import Login from "./components/auth/login";
 import Register from "./components/auth/register";
-
 import Header from "./components/header";
 import Home from "./components/home";
-
-
 import { AuthProvider } from "./contexts/authContext";
 import { useRoutes } from "react-router-dom";
-
 import List from "./components/home/utilities/internships/list";
 import Specific from "./components/home/utilities/internships/specific";
 import Checklist from "./components/home/utilities/data/checking/checklist";
+import { db } from "./firebase/firebase";
+import { collection, getDocs } from "firebase/firestore";
+
+export let data = []
+export const getData = async () => {
+  const docs = await getDocs(collection(db,"users"));
+  docs.forEach((doc) => {
+    data.push(doc.data())
+    console.log(data);
+  });
+};
 
 function App() {
   const routesArray = [
