@@ -82,7 +82,7 @@ const Checklist = () => {
             <br></br>
         {reqCheclist} 
         <br></br>
-    
+        
         <button className="checkinglist" style={{border:"4px solid skyblue", padding:"5px 15px"}}onClick={(e) => {
             e.preventDefault()
             if (states.some(state => state.reqstate === false)){ 

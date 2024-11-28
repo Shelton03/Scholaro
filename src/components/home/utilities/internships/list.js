@@ -16,7 +16,8 @@ const List = () => {
     
     const list = relevant_data.map(result => {return (
         <ListComponent name={result.name} id={result.id} type={result.type} essay={result.essay} key={result.id} amount={result.amount}
-        merit={result.merit} opens={result.opens} listName={name} closes={result.closes} need={result.need} /> 
+        merit={result.merit} opens={result.opens} listName={name} closes={result.closes} need={result.need} duration={result.duration}
+        location={result.location} /> 
     )})
    
     
