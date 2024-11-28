@@ -11,7 +11,7 @@ const List = () => {
     const [searchParams] = useSearchParams()
     const name = searchParams.get('name')
     relevant_data = api_simulation_data[name]
-    console.log(relevant_data)
+    
 
 
     

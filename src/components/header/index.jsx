@@ -17,7 +17,9 @@ const Header = () => {
                          <br/>
                         <button onClick={() => { navigate('/Applied') } } 
                         className='text-sm text-blue-600 underline' style={{color:'rgb(79,70,229)'}}>Applications</button>
-                        
+                        <br/>
+                        <button onClick={() => { navigate('/Home') } } 
+                        className='text-sm text-blue-600 underline' style={{color:'rgb(79,70,229)'}}>Home</button>
                     </>
                     :
                     <>

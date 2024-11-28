@@ -1,7 +1,6 @@
 import React from "react";
 import { db } from "../../firebase/firebase";
 import { useAuth } from "../../contexts/authContext";
-import { useEffect } from "react";
 import { getDocs } from "firebase/firestore";
 import { collection } from "firebase/firestore";
 
@@ -17,18 +16,20 @@ const Applied = () => {
     docs.forEach((doc) => {
         if (doc.data().email === email)
         {
-        data.push(doc.data().list_of_applied)
+        doc.data().list_of_applied.forEach(program =>
+          data.push(<p>{program}</p>)
+        )
         }
   })
 };
 
 createList()
-console.log(data)
 
- const applied = data.map(program => <p>{program}</p>)
+
+ 
 
 return(
-    <div> {applied} </div>
+  <div className='text-2xl font-bold pt-14'> {data} {console.log("data", data)}  </div>
 )
     
 

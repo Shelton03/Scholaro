@@ -21,7 +21,8 @@ export const doCreateUserWithEmailAndPassword = async (email, password) => {
 };
 
 export const doSignInWithEmailAndPassword = (email, password) => {
-  return signInWithEmailAndPassword(auth, email, password);
+  return signInWithEmailAndPassword(auth, email, password).catch(() => {alert(
+    "Details not recognised. Please refresh the page and ensure you're  using the correct details. If you are a new user, please go to the registration page")});
 };
 
 export const doSignInWithGoogle = async () => {
