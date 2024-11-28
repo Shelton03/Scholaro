@@ -17,7 +17,6 @@ const ListComponent = (props) =>{
 
                        
                         <h2 style={{fontSize:"2em"}}>{props.amount}</h2>
-                       
                        <hr style={{borderTop: "1.5px dotted"}}/>
 
                         <h1 style = {{fontSize: "2em", marginTop: "25px"}}>{props.name}</h1>
