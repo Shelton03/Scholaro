@@ -7,7 +7,6 @@ import { getDocs, updateDoc } from "firebase/firestore";
 import { db } from "../../../../../firebase/firebase";
 import { collection } from "firebase/firestore";
 
-
 const Checklist = () => {
     
     const {currentUser} = useAuth()
@@ -78,9 +77,13 @@ const Checklist = () => {
 
 
     return (
-        <div className='text-2xl font-bold pt-14'>
+        <div style={{marginLeft:"50px"}} className='text-2xl font-bold pt-14'>
+            <p style={{font:"strong", fontStyle:"italic"}}>Kindly tick on the boxes if you would have submitted the following forms</p>
+            <br></br>
         {reqCheclist} 
-        <button onClick={(e) => {
+        <br></br>
+    
+        <button className="checkinglist" style={{border:"4px solid skyblue", padding:"5px 15px"}}onClick={(e) => {
             e.preventDefault()
             if (states.some(state => state.reqstate === false)){ 
                  alert("Please complete the checklist first")
