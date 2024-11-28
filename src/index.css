@@ -51,7 +51,10 @@
         border-radius:  20px;
         cursor: pointer;       
 }
-
+.chekinglist-button :hover{
+    background-color: blue;
+    border:4px solid black
+}
 .populating-button:hover{
     background-color: whitesmoke;
     border: 2px solid black;

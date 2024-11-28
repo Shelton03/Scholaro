@@ -6,7 +6,7 @@ const CheckItem = (props) => {
 
     return (
         
-    <div className="Todo-item">
+    <div style={{color:" black"}}className="Todo-item">
         <input checked={props.check} onChange={()=>props.handleChange(props.id)} type="checkbox"/>  
         <span>{props.text}</span>
     </div>)
