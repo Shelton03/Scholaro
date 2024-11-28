@@ -179,36 +179,78 @@ var api_simulation_data = {
   "industrialAttachment": [{
     id: "0",
     type: "job",
-    name: "CBZ",
+    name: "Old Mutual",
     open: "19/05/25",
     close: "17/07/25",
     location: "Harare",
-    duration: "",
-    requirements: ["1", "2", "3"]
+    about: "The Intern will undertake a variety of assignments and projects in support of Old Mutual Life Assurance Company’s Software Engineering  Department. Excellent technical, analytical and communication skills are a must. Reporting to the Junior Software Developers and others as assigned, the Intern will work effectively both independently and as part of a team.",
+    duration: "12 months",
+    requirements: ["Fill application form", "Submit Transcript", "Submit Resume", "Submit attachment letter", "Write pyschometri test"],
+    benefits: ["Leadership Training", "Proffessional Exam Funding", "Medical Coverage"]
   }, {
     id: "1",
     type: "job",
-    name: "Nedbank",
-    open: "",
-    close: "",
+    name: "Deloitte",
+    open: "25/07/25",
+    close: "30/09/25",
     location: "Harare",
-    duration: "",
-    requirements: ["1", "2", "3"]
+    about: "Deloitte recruits interns for many departments. The interns work under the vision of the junior members of their division. The area is fast pace and soft skills are required",
+    duration: "9 months",
+    requirements: ["Fill application form", "Submit Transcripts", "Submit attachment letter", "Take aptitude tests"],
+    benefits: ["Potential For International Travel", "Good compensation levels", "Leadership Training"]
   }, {
     id: "2",
     type: "job",
-    name: "CABS",
-    open: "",
-    close: "",
+    name: "Econet",
+    open: "10/05/25",
+    close: "13/07/25",
+    location: "Harare or Bulawayo",
+    about: "Are you enthusiastic about the Telecommunications & Digital Services industry? If you are all about inspiring change or transforming lives, then you are the person they are looking for. Join Econet Wireless Zimbabwe and be part of a dynamic team that is shaping the future of communication.",
+    duration: "11 months",
+    requirements: ["Submit your transcripts", "Submit attachment letter", "Submit Resume", "Submit application letter"],
+    benefits: ["Professional Certification", "Lunch and Breakfast", "Free Data"]
+  }, {
+    id: "3",
+    type: "job",
+    name: "CBZ Holdings",
+    open: "21/05/25",
+    close: "25/07/25",
+    location: "Harare, Mutare, Bulawayo and Victoria Falls",
+    about: "A total of 150 openings across multiple deaprtments for attachees has recently taken place at CBZ Holdings",
+    duration: "12 months",
+    requirements: ["Submit attachment letter", "Submit application letter", "Transcript", "Submit your resume"],
+    benefits: ["Health Cover", "Breakfast and lunch provided", "Leadership seminars"]
+  }, {
+    id: "4",
+    type: "job",
+    name: "Stanbic Bank",
+    open: "19/05/25",
+    close: "17/07/25",
+    location: "Harare and South Africa",
+    about: "A total of 30 university students are set to benefit in the 2024/2025 cycle of Stanbic Bank Zimbabwe’s exclusive internship programme. The program is strategically structured to prepare budding young professionals for the workplace after university.",
+    duration: "10 months",
+    requirements: ["Submit CV", "Submit attachment letter", "Take pyschometric test"],
+    benefits: ["Charge Free Bank Card", "Gym Access", "Transport Cover"]
+  }, {
+    id: "5",
+    type: "job",
+    name: "Huawei",
+    open: "21/03/25",
+    close: "15/04/25",
     location: "Harare",
-    duration: "",
-    requirements: ["1", "2", "3"]
+    about: "We are excited to announce that Huawei opens additional application for Internship Program 2024 within Zimbabwe! This internship presents a unique opportunity for aspiring students to join the Huawei family and gain valuable experience in various domains.",
+    duration: "6 months",
+    requirements: ["Submit Resume", "Submit attachment letter", "Write aptitude tests", "Submit passport for extra credit"],
+    benefits: ["Potential for transfer to Asian branch", "Leadership Training", "Team Outing", "Health coverage", "Accomodation"]
   }],
   "apprenticeship": [{
     id: "0",
     type: "job",
     name: "Dendairy",
+    open: "",
+    close: "",
     duration: "",
+    about: "",
     location: "Harare",
     requirements: ["1", "2", "3"],
     benefits: ["1", "2", "3"]
@@ -218,6 +260,7 @@ var api_simulation_data = {
     name: "Delta",
     duration: "",
     location: "Harare",
+    about: "",
     requirements: ["1", "2", "3"],
     benefits: ["1", "2", "3"]
   }, {
@@ -226,6 +269,34 @@ var api_simulation_data = {
     name: "Dairyboard",
     duration: "",
     location: "Harare",
+    about: "",
+    requirements: ["1", "2", "3"],
+    benefits: ["1", "2", "3"]
+  }, {
+    id: "3",
+    type: "job",
+    name: "Spotify",
+    duration: "",
+    location: "Europe",
+    about: "",
+    requirements: ["1", "2", "3"],
+    benefits: ["1", "2", "3"]
+  }, {
+    id: "4",
+    type: "job",
+    name: "Telone",
+    duration: "",
+    location: "Harare",
+    about: "",
+    requirements: ["1", "2", "3"],
+    benefits: ["1", "2", "3"]
+  }, {
+    id: "5",
+    type: "job",
+    name: "Air Zimbabwe",
+    duration: "",
+    location: "Harare",
+    about: "",
     requirements: ["1", "2", "3"],
     benefits: ["1", "2", "3"]
   }]
