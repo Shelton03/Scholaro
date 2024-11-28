@@ -7,11 +7,12 @@ const Home = () => {
             const navigate = useNavigate()
             
             const backgroundStyle = {
-                backgroundImage: "url('https://images.unsplash.com/photo-1596275281743-e7399c7bdfa9?q=80&w=1924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+                backgroundImage: "url('https://media.istockphoto.com/id/1156917536/photo/group-of-graduate-students-holding-their-graduation-hats.jpg?s=612x612&w=0&k=20&c=HDVTaNKnkx6Dp_HJH-Hp8cYAbbT-edo_c1CVbkiEnmg=')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 height: "100vh",
                 color: "white",
+
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",

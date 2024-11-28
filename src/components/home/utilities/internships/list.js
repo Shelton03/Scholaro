@@ -13,10 +13,9 @@ const List = () => {
     relevant_data = api_simulation_data[name]
     console.log(relevant_data)
 
-
     
     const list = relevant_data.map(result => {return (
-        <ListComponent name={result.name} id={result.id} essay={result.essay} key={result.id} amount={result.amount}
+        <ListComponent name={result.name} id={result.id} type={result.type} essay={result.essay} key={result.id} amount={result.amount}
         merit={result.merit} opens={result.opens} listName={name} closes={result.closes} need={result.need} /> 
     )})
    

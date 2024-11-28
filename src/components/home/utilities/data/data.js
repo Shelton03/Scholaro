@@ -4,6 +4,7 @@ export const api_simulation_data = {
         "undergraduate":[
             {
              id:"0",
+             type:"scholarship",
              amount:"Full Tuition",
              name:"Joshua Mqabuko Nkomo",
              opens:"09/23/24",
@@ -18,6 +19,7 @@ export const api_simulation_data = {
             },
             {
                 id:"1",
+                type:"scholarship",
                 amount:"All Expenses Covered",
                 name:"Old Mutual",
                 opens:"30/09/25",
@@ -34,6 +36,7 @@ export const api_simulation_data = {
             },
             {
                 id:"2",
+                type:"scholarship",
                 amount:"All Expenses Covered",
                 name:"Nedbank",
                 opens:"09/23/24",
@@ -50,6 +53,7 @@ export const api_simulation_data = {
             },
             {
                 id:"3",
+                type:"scholarship",
                 amount:"All Expenses Covered",
                 name:"NOIC",
                 opens:"15/02/25",
@@ -68,6 +72,7 @@ export const api_simulation_data = {
             {
                 id:"4",
                 amount:"All Expenses Covered",
+                type:"scholarship",
                 name:"POTRAZ",
                 opens:"10/05/25",
                 closes:"30/06/25",
@@ -84,6 +89,7 @@ export const api_simulation_data = {
             {
                 id:"5",
                 amount:"All Expenses Covered",
+                type:"scholarship",
                 name:"Mastercard-USIU",
                 opens:"10/15/25",
                 closes:"30/11/25",
@@ -101,6 +107,7 @@ export const api_simulation_data = {
          "postgraduate":[
             {
             id:"0",
+            type:"scholarship",
             amount:"All Expenses Covered",
             name:"Beit Trust",
             opens:"09/11/25",
@@ -116,6 +123,7 @@ export const api_simulation_data = {
             },
             {
             id:"1",
+            type:"scholarship",
             amount:"All Expenses Covered",
             name:"Mastercard Foundation",
             opens:"09/23/24",
@@ -134,6 +142,7 @@ export const api_simulation_data = {
             {
             id:"2",
             amount:"All Expenses Covered",
+            type:"scholarship",
             name:"Chevening",
             opens:"06/08/25",
             closes:"11/11/03",
@@ -148,6 +157,7 @@ export const api_simulation_data = {
             },
             {
                 id:"3",
+                type:"scholarship",
                 amount:"All Expenses Covered",
                 name:"Rhodes Scholarship",
                 opens:"09/23/24",
@@ -163,6 +173,7 @@ export const api_simulation_data = {
                 },
                 {
                     id:"4",
+                    type:"scholarship",
                     amount:"All Expenses Covered",
                     name:"Fullbright",
                     opens:"10/01/25",
@@ -178,6 +189,7 @@ export const api_simulation_data = {
                     },
                     {
                         id:"5",
+                        type:"scholarship",
                         amount:"Varies",
                         name:"Erasmus Mundus",
                         opens:"09/23/24",
@@ -197,6 +209,7 @@ export const api_simulation_data = {
     "industrialAttachment":[
         {
         id:"0",
+        type: "job",
         name:"CBZ",
         open:"",
         close:"",
@@ -205,6 +218,7 @@ export const api_simulation_data = {
         },
         {
         id:"1",
+        type: "job",
         name:"Nedbank",
         open:"",
         close:"",
@@ -213,6 +227,7 @@ export const api_simulation_data = {
         },
         {
         id:"2",
+        type: "job",
         name:"CABS",
         open:"",
         close:"",
@@ -223,6 +238,7 @@ export const api_simulation_data = {
     "apprenticeship":[
         {
          id:"0",
+         type: "job",
          name:"Dendairy",
          duration:"",
          requirements:["1","2","3"],
@@ -230,6 +246,7 @@ export const api_simulation_data = {
         },
         {
         id:"1",
+        type: "job",
         name:"Delta",
         duration:"",
         requirements:["1","2","3"],
@@ -238,6 +255,7 @@ export const api_simulation_data = {
         },
         {
         id:"2",
+        type: "job",
         name:"Dairyboard",
         duration:"",
         requirements:["1","2","3"],
