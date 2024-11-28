@@ -36,7 +36,9 @@ var doCreateUserWithEmailAndPassword = function doCreateUserWithEmailAndPassword
 exports.doCreateUserWithEmailAndPassword = doCreateUserWithEmailAndPassword;
 
 var doSignInWithEmailAndPassword = function doSignInWithEmailAndPassword(email, password) {
-  return (0, _auth.signInWithEmailAndPassword)(_firebase.auth, email, password);
+  return (0, _auth.signInWithEmailAndPassword)(_firebase.auth, email, password)["catch"](function () {
+    alert("Details not recognised. Please refresh the page and ensure you're  using the correct details. If you are a new user, please go to the registration page");
+  });
 };
 
 exports.doSignInWithEmailAndPassword = doSignInWithEmailAndPassword;

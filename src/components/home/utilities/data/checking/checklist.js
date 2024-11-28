@@ -19,9 +19,11 @@ const Checklist = () => {
     docs.forEach((doc) => {
         if (doc.data().email === email)
         {
-            
+            doc.data().list_of_applied.forEach(program =>
+                data.push(program)
+            )
             updateDoc(doc.ref,{list_of_applied: data})
-            console.log(doc.data())
+    
         }
   });
 };
@@ -84,9 +86,14 @@ const Checklist = () => {
                  alert("Please complete the checklist first")
                 } 
             else{
-                 data.push(specific_data.name)
-                 updateList()
-                 alert("Successfully added")
+                 if (data.includes(specific_data.name)){
+                    alert("You have already applied for this opportunity")
+                 }
+                 else{
+                     data.push(specific_data.name)
+                     updateList()
+                     alert("Successfully added")
+                 }
             }
         }} >
             Add to list of applied
