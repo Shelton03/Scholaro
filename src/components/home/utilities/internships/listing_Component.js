@@ -26,12 +26,24 @@ const ListComponent = (props) =>{
                         <hr style={{marginTop: "20px", borderTop: "1.5px dotted"}}/>
 
                         <div style={{marginTop: "20px"}}>
-                                <p>🐱‍👤Merit Based: {props.merit}</p>
+                                <p>🏆Merit Based: {props.merit}</p>
                                 <p>🚻Need Based: {props.need}</p>
                                 <p>📕Essay Required: {props.essay}</p>
                         </div>
 
-            </div> : <div>no</div>}
+            </div> :  <div className="populating-button"
+                        onClick={() => {navigate("/Specific?name=" + props.id +"&listName=" + props.listName)}}>
+                        <h1 style = {{fontSize: "2em", marginTop: "0px", color: "blackl"}}>{props.name}</h1>
+                        <hr style={{borderTop: "1.5px dotted"}}/>
+                        <p className="deadline-paragraph">opens: {props.opens}</p><p>Closes: {props.closes}</p>
+                        <hr style={{marginTop: "20px", borderTop: "1.5px dotted"}}/>
+
+                        <div style={{marginTop: "20px"}}>
+                                <p>🏆Merit Based: {props.merit}</p>
+                                <p>🚻Need Based: {props.need}</p>
+                        </div>
+
+            </div> }
         </div>
         
     )
