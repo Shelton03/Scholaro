@@ -32,7 +32,7 @@ const Login = () => {
     }
 
     return (
-        <div style={{backgroundColor:"rgb(26,26,49)"}}>
+        <div style={{backgroundColor:"white"}}>
             {userLoggedIn && (<Navigate to={'/home'} replace={true} />)}
             <img src={scholaro} style={{height:250,width:190,paddingTop:100, margin:'auto'}} />
             <main className="w-full h-screen flex self-center place-content-center place-items-center">
