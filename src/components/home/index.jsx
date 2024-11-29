@@ -50,6 +50,17 @@ const Home = () => {
                     </p>
                   </div>
                   <div>
+
+
+                  <button className='undergraduate-button'
+                                                            name="undergraduate"
+                                                            style={buttonStyle}
+                                                           
+                                                    onClick={(event) => {
+                                                    navigate("/List?name=undergraduate")}}>
+                                                    <b>Undergraduate Scholarships</b>
+                                                    </button>
+
                   <button className='industrial-attachment-button'
                                                     name="IndustrialAttachment"
                                                     style={buttonStyle}
@@ -57,6 +68,15 @@ const Home = () => {
                                                     onClick={() => {
                                                     navigate("/List?name=industrialAttachment")}}>
                                                     <b>Industrial Attachments</b>
+                                                    </button>
+
+                                                    <button className='postgraduate-button'
+                                                            name ="postgraduate"
+                                                            style={buttonStyle}
+                                                            
+                                                    onClick={(event) => {
+                                                    navigate("/List?name=postgraduate")}}>
+                                                    <b>Post Graduate Scholarships</b>
                                                     </button>
             
                                                     <button  className='apprenticeship-button'
@@ -68,23 +88,9 @@ const Home = () => {
                                                     <b>Apprenticeships</b>
                                                     </button>
             
-                                                    <button className='undergraduate-button'
-                                                            name="undergraduate"
-                                                            style={buttonStyle}
-                                                           
-                                                    onClick={(event) => {
-                                                    navigate("/List?name=undergraduate")}}>
-                                                    <b>Undergraduate Scholarships</b>
-                                                    </button>
+                                                    
             
-                                                    <button className='postgraduate-button'
-                                                            name ="postgraduate"
-                                                            style={buttonStyle}
-                                                            
-                                                    onClick={(event) => {
-                                                    navigate("/List?name=postgraduate")}}>
-                                                    <b>Post Graduate Scholarships</b>
-                                                    </button>
+                                                   
                   </div>
                 </div>
               );
