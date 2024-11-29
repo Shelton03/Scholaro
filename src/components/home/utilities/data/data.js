@@ -317,67 +317,75 @@ export const api_simulation_data = {
         id:"1",
         type: "job",
         name:"Delta",
-        opens: "",
-        closes: "",
-        duration:"",
-        link:"https://www.freecodecamp.org/news/how-to-use-the-firebase-database-in-react/",
+        opens: "Not yet Online",
+        closes: "Not yet Online",
+        duration:"Varies by Program",
+        link:"https://delta.co.zw/vacancies/",
         location:"Harare",
-        about:"",
-        requirements:["1","2","3"],
-        benefits:["1","2","3"]
+        about:"Delta Beverages is the name behind Lagers, Sparkling Beverages, Maheu and Sorghum Beer"+
+                "manufacturing, marketing and distribution in Zimbabwe. An exciting opportunity has arisen for"+
+                "young, ambitious and highly motivated individuals to join this vibrant enterprise." +
+                "We are therefore inviting applications for apprenticeship training with Delta Beverages in the"+ 
+                "following trades: Fitting & Turning, Boiler-making, Refrigeration & Air Conditioning, Motor Mechanic (including diesel), "+
+                "Auto Electrical, Panel Beating, Electrical – Power, Tool making, Plumbing, Instrumentation & Control, Millwrights. ",
+        requirements:["Minimum of 5 O levels or better including Maths, English or Science ", "In addition to that Applicants for Millwrights should hold at least a national" +
+            " Certificate in any of the following trades; Electrical, Mechamical or Automotive", "Applicants for Instrumental and Control should have at least 2 A Level science passes and grade B or better in o Level Maths and Science",+
+            "Clearence letter from Ministry of higher and tertiary Education (Apprenticeship Training Authority)", "Those who wish to train in automotive trades must have a valid provisional or full drivers license", "Be aged between 16 and 25"
+        ],
+        benefits:["May lead to full time job", "Salary", "Food and transport", "Industrial qualifications"]
 
         },
         {
         id:"2",
         type: "job",
         name:"Dairyboard",
-        opens:"",
-        closes:"",
-        duration:"",
+        opens:"Not yet online",
+        closes:"Not yet online",
+        duration:"2 Years",
         location:"Harare",
-        link:"https://www.freecodecamp.org/news/how-to-use-the-firebase-database-in-react/",
-        about:"",
-        requirements:["1","2","3"],
-        benefits:["1","2","3"]
+        link:"https://dairibord.com/careers/",
+        about:"Applications are invited from nationals possessing requisite qualifications for the following four-year Apprenticeship programme. The candidate should be hardworking, self-motivated and well-disciplined apprentice. The following specific trades will be considered for the programme. Electrical power, mechanical, fitting and turning, motor mechanic and auto electric. ",
+        requirements:["Qualification: 3 A “Level” pass.", ". 5 “O” Level passes inclusive English, Mathematics and Sciences.", "Age: Minimum of 16 and maximum 25 years as on the date of submission of application.", "Registered with the respective Apprenticeship Board (Clearance Letter)."],
+        benefits:["Monthly comptetative salary", "Tecnical certicifacte", "May lead to full time hiring"]
         },
         {
             id:"3",
             type: "job",
             name:"Spotify",
-            opens:"",
-            closes:"",
-            duration:"",
-            link:"https://www.freecodecamp.org/news/how-to-use-the-firebase-database-in-react/",
+            opens:"Not yet online",
+            closes:"Not yet online",
+            duration:"18weeks",
+            link:"https://fellowship.spotify.com/",
             location:"Europe",
-            about:"",
-            requirements:["1","2","3"],
-            benefits:["1","2","3"]
+            about:"Spotify's Technology Fellowship Program is a development program aimed at hiring engineers just entering the professional tech environment from a diverse set of backgrounds. Participants in the Tech Fellowship program will operate as a team within Spotify for 18 weeks while receiving mentoring, personal & professional development from a broad set of employees to help them reach their full potential and learn what it’s like to work at Spotify.",
+            requirements:["Should be able to write code"],
+            benefits:["Bootcamp experience", "learn with taleneted mentors", "Fulltime hiring"]
             },
         {
                 id:"4",
                 type: "job",
                 name:"Telone",
-                opens:"",
-                closes:"",
-                duration:"",
+                opens:"not yet Online",
+                closes:"Not yet Online",
+                duration:"4 years",
                 location:"Harare",
-                about:"",
-                link:"https://www.freecodecamp.org/news/how-to-use-the-firebase-database-in-react/",
-                requirements:["1","2","3"],
-                benefits:["1","2","3"]
+                about:"TelOne Zimbabwe is a parastatal telecommunications company owned by the Zimbabwe government headquartered in Harare’s Central Business District. It is the largest telecom entity in Zimbabwe and has the second-largest fixed-line network in Southern Africa after Telkom South Africa. It offers apprenticeships in telecommunications engineering, electrical engineering, software engineering and electronic engineering.",
+                link:"https://www.tcfl.ac.zw/",
+                requirements:["Zimbabwean Citizen", "18-30 years", "5 O Levels including Maths, English and Science", "No criminal record or pending prosecution"],
+                benefits:["Industrial certificate", "salary", "May lead to full time hiring"]
             },
         {
              id:"5",
                 type: "job",
                 name:"Air Zimbabwe",
-                opens:"",
-                closes:"",
-                duration:"",
+                opens:"01/11/2023",
+                closes:"25/01/2024",
+                duration:"4 Years",
                 location:"Harare",
-                about:"",
-                link:"https://www.freecodecamp.org/news/how-to-use-the-firebase-database-in-react/",
-                requirements:["1","2","3"],
-                benefits:["1","2","3"]
+                about:"Air Zimbabwe offers apprenticeship opportunities in partnership with institutions like the Aviation Training Academy of Zimbabwe (ATAZ) and the Air Force of Zimbabwe's School of Technical Training (STT). The apprenticeship focuses on Aircraft engineering, maintenance, aircraft telecommunications and testing",
+                link:"https://www.airzimbabwe.aero/other-services/technical-training-school",
+                requirements:["5 O'levels", "2A levels in science subjects", "A clearence letter for Aircraft Engineering Apprenticeship from ministry of higher and Tertiary Education Industrial Trade and Testing Department"],
+                benefits:["salary", "gain internationally recognised qualifications", "practical training"]
             }
     ]
     }
