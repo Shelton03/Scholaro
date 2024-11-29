@@ -83,7 +83,7 @@ const Checklist = () => {
         {reqCheclist} 
         <br></br>
         
-        <button className="checkinglist" style={{border:"4px solid skyblue", padding:"5px 15px"}}onClick={(e) => {
+        <button className="checkinglist" style={{border:"4px solid skyblue", padding:"5px 15px", borderRadius:"20px"}}onClick={(e) => {
             e.preventDefault()
             if (states.some(state => state.reqstate === false)){ 
                  alert("Please complete all tasks on the checklist first")

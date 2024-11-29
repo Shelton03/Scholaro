@@ -74,9 +74,15 @@ const Specific = () =>{
                 <br/>
                 <h1 style={{color:"blue"}}>About:</h1>
                 <p>{specific_data.about}</p>
-               
+
                 <hr/>
                 <br/>
+                <h1 style={{color:"blue"}}>Eligibility:</h1>
+                <hr/>
+                <ol>{specific_data.eligibility.map(item => (<li>🔑{item}</li>))}</ol>
+                <hr/>
+                <br/>
+                
                 <h1 style={{color:"blue"}}>Requirements:</h1>
                 <hr/>
                 <ol>{specific_data.requirements.map(item => (<li>🎓{item}</li>))}</ol>

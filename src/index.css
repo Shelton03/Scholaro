@@ -30,7 +30,9 @@
         flex-wrap: wrap;
         gap: 20px;
         justify-content: center;
-        margin-top: 50px;      
+        margin-top: 50px; 
+        background-color: #F5F7FC; 
+          
 }
 
 
@@ -41,7 +43,6 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         border: 1px solid #ccc;  
         background-color: #f9f9f9;
-       
         width: 400px;
         margin-top: 20px;
         border: 2px ;
@@ -81,6 +82,11 @@
 }.deadline-paragraph{
     display: inline-block;
     margin-top: 20px;
+}
+
+/*checking list button*/
+.checkinglist:hover{
+    background-color: beige;
 }
 
 

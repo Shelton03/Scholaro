@@ -12,7 +12,7 @@ const ListComponent = (props) =>{
 
         <div > 
                   
-           {props.type === "scholarship" ?  <div className="populating-button"
+           {props.type === "scholarship" || "job" ?  <div className="populating-button"
                         onClick={() => {navigate("/Specific?name=" + props.id +"&listName=" + props.listName)}}>
 
                        

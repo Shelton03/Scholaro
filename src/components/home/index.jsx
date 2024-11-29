@@ -12,7 +12,6 @@ const Home = () => {
                 backgroundPosition: "center",
                 height: "100vh",
                 color: "white",
-
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
