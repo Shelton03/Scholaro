@@ -37,8 +37,8 @@ const Specific = () =>{
                 <h1 style ={{marginTop: "10px", fontSize: "2em"}}>{specific_data.name}</h1>
                 <hr/>
                 <h1 style={{fontSize:"30px", color:"blue"}}>{specific_data.amount}</h1>
-                <p>Opens: {specific_data.opens}</p>
-                <p>Closes: {specific_data.closes}</p>
+                <p>Opens: {specific_data.open}</p>
+                <p>Closes: {specific_data.close}</p>
                 <br/>
                 <h1 style={{color:"blue"}}>About:</h1>
                 <p>{specific_data.about}</p>
@@ -69,8 +69,8 @@ const Specific = () =>{
                 <h1 style ={{marginTop: "10px", fontSize: "2em"}}>{specific_data.name}</h1>
                 <hr/>
                 <h1 style={{fontSize:"30px", color:"blue"}}>{specific_data.amount}</h1>
-                <p>Opens: {specific_data.opens}</p>
-                <p>Closes: {specific_data.closes}</p>
+                <p>Opens: {specific_data.open}</p>
+                <p>Closes: {specific_data.close}</p>
                 <br/>
                 <h1 style={{color:"blue"}}>About:</h1>
                 <p>{specific_data.about}</p>
