@@ -7,7 +7,7 @@ const Home = () => {
             const navigate = useNavigate()
             
             const backgroundStyle = {
-                backgroundImage: "url('https://media.istockphoto.com/id/1156917536/photo/group-of-graduate-students-holding-their-graduation-hats.jpg?s=612x612&w=0&k=20&c=HDVTaNKnkx6Dp_HJH-Hp8cYAbbT-edo_c1CVbkiEnmg=')",
+                backgroundImage: "url('https://wallpapers.com/images/hd/graduation-rites-silhouette-dc6gdzu7y2zb57j9.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 height: "100vh",
@@ -44,8 +44,8 @@ const Home = () => {
               return (
                 <div style={backgroundStyle}>
                   <div>
-                    <h1 style={{ fontSize: "3em", marginBottom: "10px" ,color:"black"}}>Welcome to Scholaro</h1>
-                    <p style={{ fontWeight: "bold", fontSize: "1.8em", maxWidth: "600px", margin: "0 auto" , color:"black"}}>
+                    <h1 style={{ fontSize: "3em", marginBottom: "10px" ,color:"white"}}>Welcome to Scholaro</h1>
+                    <p style={{ fontWeight: "bold", fontSize: "1.8em", maxWidth: "600px", margin: "0 auto" , color:"white"}}>
                       Are you looking for a scholarships or an Internships ? We got you covered.
                     </p>
                   </div>

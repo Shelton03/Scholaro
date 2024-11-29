@@ -46,18 +46,6 @@ const Register = () => {
                     >
                         <div>
                             <label className="text-sm text-gray-600 font-bold">
-                                Name
-                            </label>
-                            <input
-                                type="text"
-                                autoComplete='name'
-                                required
-                                value={name} onChange={(e) => { setName(e.target.value) }}
-                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:indigo-600 shadow-sm rounded-lg transition duration-300"
-                            />
-                        </div>
-                        <div>
-                            <label className="text-sm text-gray-600 font-bold">
                                 Email
                             </label>
                             <input

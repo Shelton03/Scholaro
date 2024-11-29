@@ -86,16 +86,16 @@ const Checklist = () => {
         <button className="checkinglist" style={{border:"4px solid skyblue", padding:"5px 15px"}}onClick={(e) => {
             e.preventDefault()
             if (states.some(state => state.reqstate === false)){ 
-                 alert("Please complete the checklist first")
+                 alert("Please complete all tasks on the checklist first")
                 } 
             else{
                  if (data.includes(specific_data.name)){
-                    alert("You have already applied for this opportunity")
+                    alert("You have already applied for this opportunity. Please wait for their response whilst preparing for the next stage")
                  }
                  else{
                      data.push(specific_data.name)
                      updateList()
-                     alert("Successfully added")
+                     alert("Successfully added. You're taking your chances, good for you")
                  }
             }
         }} >
