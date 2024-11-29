@@ -78,7 +78,7 @@ const Checklist = () => {
 
     return (
         <div style={{marginLeft:"50px"}} className='text-2xl font-bold pt-14'>
-            <p style={{font:"strong", fontStyle:"italic"}}>Kindly tick on the boxes if you would have submitted the following forms</p>
+            <p style={{font:"strong", fontStyle:"italic"}}> Go to this <a target="_blank" href={specific_data.link} style={{color:'blue'}}>page</a> to begin your application and use this to track your tasks</p>
             <br></br>
         {reqCheclist} 
         <br></br>
