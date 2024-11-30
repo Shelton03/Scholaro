@@ -57,7 +57,7 @@ const Home = () => {
                                                            
                                                     onClick={(event) => {
                                                     navigate("/List?name=undergraduate")}}>
-                                                    <b>Undergraduate Scholarships</b>
+                                                    <b>Undergraduate</b>
                                                     </button>
 
                   <button className='industrial-attachment-button'
@@ -66,7 +66,7 @@ const Home = () => {
                                                             
                                                     onClick={() => {
                                                     navigate("/List?name=industrialAttachment")}}>
-                                                    <b>Industrial Attachments</b>
+                                                    <b>Attachments</b>
                                                     </button>
 
                                                     <button className='postgraduate-button'
@@ -75,7 +75,7 @@ const Home = () => {
                                                             
                                                     onClick={(event) => {
                                                     navigate("/List?name=postgraduate")}}>
-                                                    <b>Post Graduate Scholarships</b>
+                                                    <b>Post Graduate</b>
                                                     </button>
             
                                                     <button  className='apprenticeship-button'

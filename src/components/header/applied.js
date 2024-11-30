@@ -25,11 +25,31 @@ const Applied = () => {
 
 createList()
 
-
- 
-
 return(
-  <div className='text-2xl font-bold pt-14'> {data.map(program => <li>{program}</li>)}  {console.log("data", data)}  </div>
+  <div className="applications-container">
+    <div className="applications-left-side">
+      <h1 style={{marginTop:"50px",
+                   fontSize:"2rem", 
+                  marginLeft:"30px", 
+                  fontFamily:"sans-serif", 
+                  color:"purple",
+                  textDecoration:"underline",
+                  textUnderlineOffset: "10px",
+                  }}>Your Current Applications</h1>
+      
+      <br/>
+      
+      <div className="application-list" style={{marginLeft:"30px",fontSize:"20px"}}> {data.map(program => <li>{program}</li>)}  {console.log("data", data)}  </div>
+    </div>
+
+    <div className="applications-right-side">
+      <blockquote style={{color:"purple", fontSize:"17px"}}>
+      "Education is the most powerful weapon which <br/>
+      you can use to change the world."<br/>
+      -Nelson Mandela
+      </blockquote>
+    </div>
+  </div>
 )
     
 

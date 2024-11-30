@@ -43,7 +43,7 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         border: 1px solid #ccc;  
         background-color: #f9f9f9;
-        width: 400px;
+        width: 450px;
         margin-top: 20px;
         border: 2px ;
         color: black;
@@ -89,5 +89,25 @@
     background-color: beige;
 }
 
+/*Applications list*/
+
+.applications-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    height: 100vh;
+}
+
+.applications-right-side{
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    padding: 20px;
+    background-color: #e0e0ff; /* Light blue background */
+    text-align: center;
+}
+
+.applications-left-side{
+    background-color: #f0f0f0
+}
 
 

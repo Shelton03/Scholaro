@@ -12,34 +12,34 @@ const ListComponent = (props) =>{
 
         <div > 
                   
-           {props.type === "scholarship" || "job" ?  <div className="populating-button"
+           {props.type === "scholarship" ?   <div className="populating-button"
                         onClick={() => {navigate("/Specific?name=" + props.id +"&listName=" + props.listName)}}>
 
-                       
-                        <h2 style={{fontSize:"2em"}}>{props.amount}</h2>
-                       <hr style={{borderTop: "1.5px dotted"}}/>
+                        <h2 style={{fontSize:"2em", color:"purple"}}>{props.amount}</h2>
+                        <hr style={{borderTop: "1.5px dotted purple"}}/>
 
-                        <h1 style = {{fontSize: "2em", marginTop: "25px"}}>{props.name}</h1>
-                        <hr style={{borderTop: "1.5px dotted"}}/>
-                        <p className="deadline-paragraph">opens: {props.opens}</p><p>Closes: {props.closes}</p>
-                        <hr style={{marginTop: "20px", borderTop: "1.5px dotted"}}/>
+                        <h1 style = {{fontSize: "2em", marginTop: "25px", color:"purple"}}>{props.name}</h1>
+                        <hr style={{borderTop: "1.5px dotted purple"}}/>
+                        <p className="deadline-paragraph" style={{color:"blue"}}><span style={{color:"purple"}}>Opens: </span>{props.opens}</p>
+                        <p style={{color:"blue"}}><span style={{color:"purple"}}>Closes:</span> {props.closes}</p>
+                        <hr style={{marginTop: "20px", borderTop: "1.5px dotted purple"}}/>
 
                         <div style={{marginTop: "20px"}}>
-                                <p>🏆Merit Based: {props.merit}</p>
-                                <p>🚻Need Based: {props.need}</p>
-                                <p>📕Essay Required: {props.essay}</p>
+                                <p style={{color:"blue"}}>🏆<span style={{color:"purple"}}>Merit Based:</span> {props.merit}</p>
+                                <p style={{color:"blue"}}>🚻<span style={{color:"purple"}}>Need Based:</span> {props.need}</p>
                         </div>
 
             </div> :  <div className="populating-button"
                         onClick={() => {navigate("/Specific?name=" + props.id +"&listName=" + props.listName)}}>
-                        <h1 style = {{fontSize: "2em", marginTop: "0px", color: "blackl"}}>{props.name}</h1>
-                        <hr style={{borderTop: "1.5px dotted"}}/>
-                        <p className="deadline-paragraph">Opens: {props.opens}</p><p>Closes: {props.closes}</p>
-                        <hr style={{marginTop: "20px", borderTop: "1.5px dotted"}}/>
+                        <h1 style = {{fontSize: "2em", marginTop: "0px", color: "purple"}}>{props.name}</h1>
+                        <hr style={{borderTop: "1.5px dotted purple"}}/>
+                        <p style={{color:"blue"}}className="deadline-paragraph"><span style={{color:"purple"}}>Opens:</span> {props.opens}</p>
+                        <p style={{color:"blue"}}> <span style={{color:"purple"}}>Closes:</span> {props.closes}</p>
+                        <hr style={{marginTop: "20px", borderTop: "1.5px dotted purple"}}/>
 
                         <div style={{marginTop: "20px"}}>
-                                <p>🎯Location: {props.location}</p>
-                                <p>⌛Duration: {props.duration}</p>
+                                <p style ={{color:"blue"}}>🎯<span style={{color:"purple"}}>Location:</span> {props.location}</p>
+                                <p style={{color:"blue"}}>⌛<span style={{color:"purple"}}>Duration:</span> {props.duration}</p>
                         </div>
 
             </div> }
