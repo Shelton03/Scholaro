@@ -15,6 +15,7 @@ var api_simulation_data = {
     closes: "11/11/03",
     merit: "Yes",
     need: "No",
+    essay: "Yes",
     link: "https://applications.higherlifefoundation.com/jnsf",
     location: "Zimbabwe",
     about: "Higher Life Foundation provides financial assistance to  fifty top performing high school graduates. 70% of the scholarships are allocated for Science, Technology, Engineering & Mathematics (STEM) studies, whilst 30% is reserved for other disciplines.",
@@ -29,6 +30,7 @@ var api_simulation_data = {
     opens: "30/09/25",
     closes: "02/10/25",
     merit: "Yes",
+    essay: "Yes",
     need: "Yes",
     link: "https://www.oldmutual.co.za/careers/the-old-mutual-education-trust/",
     location: "Zimbabwe",
@@ -44,6 +46,7 @@ var api_simulation_data = {
     opens: "09/23/24",
     closes: "11/11/03",
     merit: "Yes",
+    essay: "Yes",
     need: "Yes",
     link: "https://www.nedbank.co.zw/content/nedbank-zimbabwe/desktop/zw/en/careers/scholarships.html",
     location: "Zimbabwe",
@@ -60,6 +63,7 @@ var api_simulation_data = {
     closes: "25/04/25",
     merit: "Yes",
     need: "Yes",
+    essay: "Yes",
     link: "https://www.noic.co.zw/sustainability/social-impact/scholarships/",
     location: "Zimbabwe",
     eligibility: ["13+ points in three A level subjects", "21 years of age and under", "Going into first semester"],
@@ -75,6 +79,7 @@ var api_simulation_data = {
     closes: "30/06/25",
     merit: "Yes",
     need: "Yes",
+    essay: "Yes",
     link: "https://www.potraz.zw/",
     location: "Zimbabwe",
     eligibility: ["15 points in three A level STEM subjects", "Zimbabwean Citizen", "Have unconditional offer letter"],
@@ -90,6 +95,7 @@ var api_simulation_data = {
     closes: "30/11/25",
     merit: "Yes",
     need: "Yes",
+    essay: "Yes",
     link: "https://www.usiu.ac.ke/mastercard-foundation-scholars-program/",
     location: "Kenya",
     eligibility: ["Under 29 years of age", "Demonstrate academic talent, leadership potential and commitment to giving back"],
@@ -105,6 +111,7 @@ var api_simulation_data = {
     opens: "09/11/25",
     closes: "01/05/26",
     merit: "Yes",
+    essay: "Yes",
     link: "https://beittrust.org.uk/beit-trust-scholarships/",
     need: "Yes",
     eligibility: ["First Class or Upper Merit Degree", "Willing to return to country of origin after study", "Three years work experience in field of study", "Pursue your degree in partner universities only"],
@@ -121,6 +128,7 @@ var api_simulation_data = {
     closes: "11/11/03",
     merit: "Yes",
     need: "Yes",
+    essay: "Yes",
     link: "https://mastercardfdn.org/all/scholars/",
     location: "UK, Scotland, America, and South Africa",
     eligibility: ["Hold an offer letter from a partner university", "Leadership experience", "Academic Merit", "High level english proficiency"],
@@ -136,6 +144,7 @@ var api_simulation_data = {
     closes: "11/11/03",
     merit: "Yes",
     need: "Yes",
+    essay: "Yes",
     link: "https://www.chevening.org/apply/",
     location: "United Kingdom",
     eligibility: ["Be in a Chevening Eligible country(Zimbabwe is eligble)", "Two years of work experience", "Hold a first class or upper merit undergraduate degree", "Receive an unconditional offer for an eligible course from a UK university"],
@@ -151,6 +160,7 @@ var api_simulation_data = {
     closes: "11/11/03",
     merit: "Yes",
     need: "Yes",
+    essay: "Yes",
     link: "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/",
     location: "Oxford University",
     eligibility: ["Hold a first class or upeer merit degree", "Be under the age of 27", "Be a resident of your home country"],
@@ -166,6 +176,7 @@ var api_simulation_data = {
     closes: "15/04/25",
     merit: "Yes",
     need: "Yes",
+    essay: "Yes",
     location: "USA",
     link: "https://foreign.fulbrightonline.org/apply?country=zimbabwe",
     eligibility: ["Reside in country of nomination", "First class or upeer merit undergraduate degree", "Be fluent in English", "Employment at tertiary or research institution"],
@@ -181,6 +192,7 @@ var api_simulation_data = {
     closes: "11/11/03",
     merit: "Yes",
     need: "Yes",
+    essay: "Yes",
     duration: "Europe",
     link: "https://www.emhrpp.com/how-to-apply#:~:text=Entry%20requirements,-To%20be%20eligible&text=A%20first%20degree%20equivalent%20to,%2C%20internships%2C%20and%20voluntary%20work.",
     eligibility: ["Hold a first class or upper merit undergraduate degree", "A minimum English language qualification of English B/English 6 at upper secondary level or the equivalent level of an internationally recognized test", "A minimum of two year’s practitioner experience in the field of human rights"],
@@ -199,7 +211,8 @@ var api_simulation_data = {
     about: "The Intern will undertake a variety of assignments and projects in support of Old Mutual Life Assurance Company’s Software Engineering  Department. Excellent technical, analytical and communication skills are a must. Reporting to the Junior Software Developers and others as assigned, the Intern will work effectively both independently and as part of a team.",
     duration: "12 months",
     requirements: ["Fill application form", "Submit Transcript", "Submit Resume", "Submit attachment letter", "Write pyschometri test"],
-    benefits: ["Leadership Training", "Proffessional Exam Funding", "Medical Coverage"]
+    benefits: ["Leadership Training", "Proffessional Exam Funding", "Medical Coverage"],
+    eligibility: ["Must be a third year university student"]
   }, {
     id: "1",
     type: "job",
@@ -211,7 +224,8 @@ var api_simulation_data = {
     about: "Deloitte recruits interns for many departments. The interns work under the vision of the junior members of their division. The area is fast pace and soft skills are required",
     duration: "9 months",
     requirements: ["Fill application form", "Submit Transcripts", "Submit attachment letter", "Take aptitude tests"],
-    benefits: ["Potential For International Travel", "Good compensation levels", "Leadership Training"]
+    benefits: ["Potential For International Travel", "Good compensation levels", "Leadership Training"],
+    eligibility: ["Must be a third year university student"]
   }, {
     id: "2",
     type: "job",
@@ -223,7 +237,8 @@ var api_simulation_data = {
     about: "Are you enthusiastic about the Telecommunications & Digital Services industry? If you are all about inspiring change or transforming lives, then you are the person they are looking for. Join Econet Wireless Zimbabwe and be part of a dynamic team that is shaping the future of communication.",
     duration: "11 months",
     requirements: ["Submit your transcripts", "Submit attachment letter", "Submit Resume", "Submit application letter"],
-    benefits: ["Professional Certification", "Lunch and Breakfast", "Free Data"]
+    benefits: ["Professional Certification", "Lunch and Breakfast", "Free Data"],
+    eligibility: ["Must be a third year university student"]
   }, {
     id: "3",
     type: "job",
@@ -235,7 +250,8 @@ var api_simulation_data = {
     duration: "12 months",
     link: "https://vacancybox.co.zw/job/students-on-attachment-cbz-holdings-limited/",
     requirements: ["Submit attachment letter", "Submit application letter", "Transcript", "Submit your resume"],
-    benefits: ["Health Cover", "Breakfast and lunch provided", "Leadership seminars"]
+    benefits: ["Health Cover", "Breakfast and lunch provided", "Leadership seminars"],
+    eligibility: ["Must be a third year university student"]
   }, {
     id: "4",
     type: "job",
@@ -247,7 +263,8 @@ var api_simulation_data = {
     duration: "10 months",
     link: "https://www.standardbank.com/sbg/standard-bank-group/careers/apply/jobs/view-all-jobs",
     requirements: ["Submit CV", "Submit attachment letter", "Take pyschometric test"],
-    benefits: ["Charge Free Bank Card", "Gym Access", "Transport Cover"]
+    benefits: ["Charge Free Bank Card", "Gym Access", "Transport Cover"],
+    eligibility: ["Must be a third year university student"]
   }, {
     id: "5",
     type: "job",
@@ -259,32 +276,35 @@ var api_simulation_data = {
     about: "We are excited to announce that Huawei opens additional application for Internship Program 2024 within Zimbabwe! This internship presents a unique opportunity for aspiring students to join the Huawei family and gain valuable experience in various domains.",
     duration: "6 months",
     requirements: ["Submit Resume", "Submit attachment letter", "Write aptitude tests", "Submit passport for extra credit"],
-    benefits: ["Potential for transfer to Asian branch", "Leadership Training", "Team Outing", "Health coverage", "Accomodation"]
+    benefits: ["Potential for transfer to Asian branch", "Leadership Training", "Team Outing", "Health coverage", "Accomodation"],
+    eligibility: ["Must be a third year university student"]
   }],
   "apprenticeship": [{
     id: "0",
     type: "job",
     name: "Dendairy",
-    opens: "Not Yet Online",
-    closes: "Not Yet Online",
+    opens: "20/02/25",
+    closes: "25/04/25",
     duration: "4 years",
-    about: "",
-    link: "https://www.freecodecamp.org/news/how-to-use-the-firebase-database-in-react/",
+    about: "Dendairy takes four year interns for various programs including refrogeration and machine operating. Upon completion, aprentees will get a certificate.",
+    link: "https://dendairy.com/",
     location: "Harare, Bulawayo and Mutare",
-    requirements: ["1", "2", "3"],
-    benefits: ["1", "2", "3"]
+    requirements: ["Submit your resume", "Submit academic certificates", "Submit a clearcance from ZRP", "Submit application letter", "Take pyschometric test"],
+    benefits: ["Decent Salary", "Potential for full time position", "Access to mentors"],
+    eligibility: ["5 O'Levels including Math, English and Science", "2 A'Level passes", "A driver's license is an added advantage"]
   }, {
     id: "1",
     type: "job",
     name: "Delta",
-    opens: "Not yet Online",
-    closes: "Not yet Online",
+    opens: "20/04/25",
+    closes: "30/06/25",
     duration: "Varies by Program",
     link: "https://delta.co.zw/vacancies/",
     location: "Harare",
     about: "Delta Beverages is the name behind Lagers, Sparkling Beverages, Maheu and Sorghum Beer" + "manufacturing, marketing and distribution in Zimbabwe. An exciting opportunity has arisen for" + "young, ambitious and highly motivated individuals to join this vibrant enterprise." + "We are therefore inviting applications for apprenticeship training with Delta Beverages in the" + "following trades: Fitting & Turning, Boiler-making, Refrigeration & Air Conditioning, Motor Mechanic (including diesel), " + "Auto Electrical, Panel Beating, Electrical – Power, Tool making, Plumbing, Instrumentation & Control, Millwrights. ",
-    requirements: ["Minimum of 5 O levels or better including Maths, English or Science ", "In addition to that Applicants for Millwrights should hold at least a national" + " Certificate in any of the following trades; Electrical, Mechamical or Automotive", "Applicants for Instrumental and Control should have at least 2 A Level science passes and grade B or better in o Level Maths and Science", +"Clearence letter from Ministry of higher and tertiary Education (Apprenticeship Training Authority)", "Those who wish to train in automotive trades must have a valid provisional or full drivers license", "Be aged between 16 and 25"],
-    benefits: ["May lead to full time job", "Salary", "Food and transport", "Industrial qualifications"]
+    requirements: ["Clearence letter", "Fill application form", "Certified copies of academic certificates and national Id"],
+    benefits: ["May lead to full time job", "Salary", "Food and transport", "Industrial qualifications"],
+    eligibility: ["Minimum of 5 O levels or better including Maths, English or Science ", "In addition to that Applicants for Millwrights should hold at least a national" + " Certificate in any of the following trades; Electrical, Mechamical or Automotive", "Applicants for Instrumental and Control should have at least 2 A Level science passes and grade B or better in o Level Maths and Science", +"Clearence letter from Ministry of higher and tertiary Education (Apprenticeship Training Authority)", "Those who wish to train in automotive trades must have a valid provisional or full drivers license", "Be aged between 16 and 25"]
   }, {
     id: "2",
     type: "job",
@@ -295,20 +315,22 @@ var api_simulation_data = {
     location: "Harare",
     link: "https://dairibord.com/careers/",
     about: "Applications are invited from nationals possessing requisite qualifications for the following four-year Apprenticeship programme. The candidate should be hardworking, self-motivated and well-disciplined apprentice. The following specific trades will be considered for the programme. Electrical power, mechanical, fitting and turning, motor mechanic and auto electric. ",
-    requirements: ["Qualification: 3 A “Level” pass.", ". 5 “O” Level passes inclusive English, Mathematics and Sciences.", "Age: Minimum of 16 and maximum 25 years as on the date of submission of application.", "Registered with the respective Apprenticeship Board (Clearance Letter)."],
-    benefits: ["Monthly comptetative salary", "Tecnical certicifacte", "May lead to full time hiring"]
+    requirements: ["Application letter", "Certified copies of academic certificates and national ID", "CV"],
+    benefits: ["Monthly comptetative salary", "Technical certicifacte", "May lead to full time hiring"],
+    eligibility: ["Qualification: 3 A “Level” pass.", ". 5 “O” Level passes inclusive English, Mathematics and Sciences.", "Age: Minimum of 16 and maximum 25 years as on the date of submission of application.", "Registered with the respective Apprenticeship Board (Clearance Letter)."]
   }, {
     id: "3",
     type: "job",
     name: "Spotify",
-    opens: "Not yet online",
-    closes: "Not yet online",
+    opens: "24/08/25",
+    closes: "31/10/25",
     duration: "18weeks",
     link: "https://fellowship.spotify.com/",
     location: "Europe",
     about: "Spotify's Technology Fellowship Program is a development program aimed at hiring engineers just entering the professional tech environment from a diverse set of backgrounds. Participants in the Tech Fellowship program will operate as a team within Spotify for 18 weeks while receiving mentoring, personal & professional development from a broad set of employees to help them reach their full potential and learn what it’s like to work at Spotify.",
-    requirements: ["Should be able to write code"],
-    benefits: ["Bootcamp experience", "learn with taleneted mentors", "Fulltime hiring"]
+    requirements: ["Resume", "Cover letter", "Portifolio or coding samples", "National ID"],
+    benefits: ["Bootcamp experience", "learn with taleneted mentors", "Fulltime hiring"],
+    eligibility: ["Should be able to write code"]
   }, {
     id: "4",
     type: "job",
@@ -319,8 +341,9 @@ var api_simulation_data = {
     location: "Harare",
     about: "TelOne Zimbabwe is a parastatal telecommunications company owned by the Zimbabwe government headquartered in Harare’s Central Business District. It is the largest telecom entity in Zimbabwe and has the second-largest fixed-line network in Southern Africa after Telkom South Africa. It offers apprenticeships in telecommunications engineering, electrical engineering, software engineering and electronic engineering.",
     link: "https://www.tcfl.ac.zw/",
-    requirements: ["Zimbabwean Citizen", "18-30 years", "5 O Levels including Maths, English and Science", "No criminal record or pending prosecution"],
-    benefits: ["Industrial certificate", "salary", "May lead to full time hiring"]
+    requirements: ["Certified copies of academic certificates, national ID and birth certificate", "Clearence letter", "Copy of your CV", "Fill Application form"],
+    benefits: ["Industrial certificate", "salary", "May lead to full time hiring"],
+    eligibility: ["Zimbabwean Citizen", "18-30 years", "5 O Levels including Maths, English and Science", "No criminal record or pending prosecution"]
   }, {
     id: "5",
     type: "job",
@@ -331,8 +354,9 @@ var api_simulation_data = {
     location: "Harare",
     about: "Air Zimbabwe offers apprenticeship opportunities in partnership with institutions like the Aviation Training Academy of Zimbabwe (ATAZ) and the Air Force of Zimbabwe's School of Technical Training (STT). The apprenticeship focuses on Aircraft engineering, maintenance, aircraft telecommunications and testing",
     link: "https://www.airzimbabwe.aero/other-services/technical-training-school",
-    requirements: ["5 O'levels", "2A levels in science subjects", "A clearence letter for Aircraft Engineering Apprenticeship from ministry of higher and Tertiary Education Industrial Trade and Testing Department"],
-    benefits: ["salary", "gain internationally recognised qualifications", "practical training"]
+    requirements: ["Certified copies of academic certificates", "Certified copy of national ID", "Clearence letter", "A copy of your CV"],
+    benefits: ["salary", "gain internationally recognised qualifications", "practical training"],
+    eligibility: ["5 O'levels", "2A levels in science subjects", "A clearence letter for Aircraft Engineering Apprenticeship from ministry of higher and Tertiary Education Industrial Trade and Testing Department"]
   }]
 };
 exports.api_simulation_data = api_simulation_data;
